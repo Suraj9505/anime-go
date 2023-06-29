@@ -1,0 +1,111 @@
+export const anime = [
+  {
+    id: 1,
+    title: "Demon Slayer Swordsmith Village Arc",
+    categories: ["2023", "r", "sub", "dub"],
+    description: "Swordsmith Village Arc of Kimetsu no Yaiba.",
+    thumbnail: require("../assets/images/demon_slayer_s3_full.webp"),
+  },
+  {
+    id: 2,
+    title: "KamiKatsu: Working for God in a Godless World",
+    categories: ["2023", "sub", "dub"],
+    description:
+      "Yukito's parents are the leaders of a cult. After he gets sacrificed, he gets reincarnated into another world where religion doesn't exist and porn books are akin to a child's doodles. He finds that it's also a world where your life and death is decided by the country. While obstructing his friend's execution, both of them lose their lives. Just at that moment, the god of his religion comes to their world and revives them.",
+    thumbnail: require("../assets/images/kamikatsu_full.avif"),
+  },
+  {
+    id: 3,
+    title: "Why Raeliana Ended Up at the Duke's Mansion",
+    categories: ["2023", "sub", "dub"],
+    description:
+      "When Park Eunha dies in modern-day Korea, she awakens in the body of Raeliana McMillan, the eldest daughter of a nouveaux riche baron. However, this is no ordinary world; it's the exact same one as a novel she once read. Beloved by her family, it would seem as though she is in a fairy tale. But Raeliana is far from the main character—she is a mere plot device, whose murder at the hands of her fiancé instigates the entire story.Raeliana has no intention to accept her fate quietly. She sets her eyes on someone in a position of great power—the vieux riche male protagonist Duke Noah Volstaire Wynknight—aiming to completely change the original story. Using her knowledge of future events, Raeliana offers information to Noah on the condition that he acts as her fake fiancé, but the Duke's two-faced nature throws a wrench in her plans!",
+    thumbnail: require("../assets/images/raelina_full.webp"),
+  },
+  {
+    id: 4,
+    title:
+      "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too",
+    categories: ["2023", "sub", "dub"],
+    description:
+      "A chance to come back! A mysterious door stands open, inviting a boy who's been brutally bullied all his life to take a courageous step forward into the unknown. On the other side, he finds a hoard of priceless artifacts and a world as filled with magic as it is with monsters. The most shocking revelation, however, is that he can bring whatever he wants back with him when he returns to Earth. It won't be long before this double life changes him forever...",
+    thumbnail: require("../assets/images/cheat-skill-anime.webp"),
+  },
+  {
+    id: 5,
+    title: "One Piece",
+    categories: ["1999", "sub", "pg-13"],
+    description: `Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King. Enter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.`,
+    thumbnail: require("../assets/images/one_piece_full.jpe"),
+  },
+  {
+    id: 6,
+    title: "In Another World With My Smartphone 2",
+    categories: ["2023", "pg-13", "sub", "dub"],
+    description: `Second season of Isekai wa Smartphone to Tomo ni.`,
+    thumbnail: require("../assets/images/smartphone_full.webp"),
+  },
+  {
+    id: 7,
+    title: "[Oshi No Ko]",
+    categories: ["2023", "pg-13", "sub"],
+    description: `Sixteen-year-old Ai Hoshino is a talented and beautiful idol who is adored by her fans. She is the personification of a pure, young maiden. But all that glitters is not gold. Gorou Amemiya is a countryside gynecologist and a big fan of Ai. So when the pregnant idol shows up at his hospital, he is beyond bewildered. Gorou promises her a safe delivery. Little does he know, an encounter with a mysterious figure would result in his untimely death—or so he thought.Opening his eyes in the lap of his beloved idol, Gorou finds that he has been reborn as Aquamarine Hoshino—Ai's newborn son! With his world turned upside down, Gorou soon learns that the world of showbiz is paved with thorns, where talent does not always beget success. Will he manage to protect Ai's smile that he loves so much with the help of an eccentric and unexpected ally?`,
+    thumbnail: require("../assets/images/oshi_no_ko_full.jpg"),
+  },
+  {
+    id: 8,
+    title: "Too Cute Crisis",
+    categories: ["2023", "sub"],
+    description: `Liza Luna is an alien who wants to destroy Earth upon her first look. But the planet has a plethora of good things, and it would be a pity for her not to check it out. Thus, Earth is spared from destruction, and the alien starts to wander around places. Soon, Liza ends up in a cat cafe, where she will encounter creatures that are beyond her understanding.`,
+    thumbnail: require("../assets/images/cute_crisis.jpg"),
+  },
+  {
+    id: 9,
+    title: "Rokudo's Bad Girls",
+    categories: ["2023", "sub"],
+    description: `LTousuke Rokudou is a first-year attending Aomori High, a school full of delinquents. He is often bullied by his classmates due to his incompatibility with their behavior, the only exceptions being his two good friends who are also social outcasts. Frustrated at the way they are treated, the three wish they could stand up and claim the fun, peaceful school life of their dreams.However, Tousuke's life takes a drastic turn when he receives a package from his late grandfather containing their family heirloom, a scroll said to possess the power to save him from impending danger. Upon holding the scroll, a sudden glow emanates, leaving a strange mark on Tousuke's forehead.Thinking that he's received the means to free himself and his friends from their daily treatment, Tousuke is shocked to find out that its effects are far different than what he had imagined. Although his bullying continues, he realizes that the mark from the scroll acts as a charm, capturing the hearts of delinquent girls—in particular, Ranna Himawari, the strongest of them all.`,
+    thumbnail: require("../assets/images/rokudo_full.jpe"),
+  },
+  {
+    id: 10,
+    title: "In Another World With My Smartphone S2",
+    categories: ["2023", "pg-13", "sub", "dub"],
+    description: `Second season of Isekai wa Smartphone to Tomo ni.`,
+    thumbnail: require("../assets/images/smartphone.jpeg"),
+  },
+  // {
+  //   id: 9,
+  //   title: "Rokudo's Bad Girls",
+  //   categories: ["2023", "sub"],
+  //   description: `LTousuke Rokudou is a first-year attending Aomori High, a school full of delinquents. He is often bullied by his classmates due to his incompatibility with their behavior, the only exceptions being his two good friends who are also social outcasts. Frustrated at the way they are treated, the three wish they could stand up and claim the fun, peaceful school life of their dreams.However, Tousuke's life takes a drastic turn when he receives a package from his late grandfather containing their family heirloom, a scroll said to possess the power to save him from impending danger. Upon holding the scroll, a sudden glow emanates, leaving a strange mark on Tousuke's forehead.Thinking that he's received the means to free himself and his friends from their daily treatment, Tousuke is shocked to find out that its effects are far different than what he had imagined. Although his bullying continues, he realizes that the mark from the scroll acts as a charm, capturing the hearts of delinquent girls—in particular, Ranna Himawari, the strongest of them all.`,
+  //   thumbnail: require("../assets/images/rokudo's_bad_girl.jpeg"),
+  // },
+  // {
+  //   id: 9,
+  //   title: "Rokudo's Bad Girls",
+  //   categories: ["2023", "sub"],
+  //   description: `LTousuke Rokudou is a first-year attending Aomori High, a school full of delinquents. He is often bullied by his classmates due to his incompatibility with their behavior, the only exceptions being his two good friends who are also social outcasts. Frustrated at the way they are treated, the three wish they could stand up and claim the fun, peaceful school life of their dreams.However, Tousuke's life takes a drastic turn when he receives a package from his late grandfather containing their family heirloom, a scroll said to possess the power to save him from impending danger. Upon holding the scroll, a sudden glow emanates, leaving a strange mark on Tousuke's forehead.Thinking that he's received the means to free himself and his friends from their daily treatment, Tousuke is shocked to find out that its effects are far different than what he had imagined. Although his bullying continues, he realizes that the mark from the scroll acts as a charm, capturing the hearts of delinquent girls—in particular, Ranna Himawari, the strongest of them all.`,
+  //   thumbnail: require("../assets/images/rokudo's_bad_girl.jpeg"),
+  // },
+  // {
+  //   id: 9,
+  //   title: "Rokudo's Bad Girls",
+  //   categories: ["2023", "sub"],
+  //   description: `LTousuke Rokudou is a first-year attending Aomori High, a school full of delinquents. He is often bullied by his classmates due to his incompatibility with their behavior, the only exceptions being his two good friends who are also social outcasts. Frustrated at the way they are treated, the three wish they could stand up and claim the fun, peaceful school life of their dreams.However, Tousuke's life takes a drastic turn when he receives a package from his late grandfather containing their family heirloom, a scroll said to possess the power to save him from impending danger. Upon holding the scroll, a sudden glow emanates, leaving a strange mark on Tousuke's forehead.Thinking that he's received the means to free himself and his friends from their daily treatment, Tousuke is shocked to find out that its effects are far different than what he had imagined. Although his bullying continues, he realizes that the mark from the scroll acts as a charm, capturing the hearts of delinquent girls—in particular, Ranna Himawari, the strongest of them all.`,
+  //   thumbnail: require("../assets/images/rokudo's_bad_girl.jpeg"),
+  // },
+  // {
+  //   id: 11,
+  //   title: "Rokudo's Bad Girls",
+  //   categories: ["2023", "sub"],
+  //   description: `LTousuke Rokudou is a first-year attending Aomori High, a school full of delinquents. He is often bullied by his classmates due to his incompatibility with their behavior, the only exceptions being his two good friends who are also social outcasts. Frustrated at the way they are treated, the three wish they could stand up and claim the fun, peaceful school life of their dreams.However, Tousuke's life takes a drastic turn when he receives a package from his late grandfather containing their family heirloom, a scroll said to possess the power to save him from impending danger. Upon holding the scroll, a sudden glow emanates, leaving a strange mark on Tousuke's forehead.Thinking that he's received the means to free himself and his friends from their daily treatment, Tousuke is shocked to find out that its effects are far different than what he had imagined. Although his bullying continues, he realizes that the mark from the scroll acts as a charm, capturing the hearts of delinquent girls—in particular, Ranna Himawari, the strongest of them all.`,
+  //   thumbnail: require("../assets/images/rokudo's_bad_girl.jpeg"),
+  // },
+  // {
+  //   id: 12,
+  //   title: "Rokudo's Bad Girls",
+  //   categories: ["2023", "sub"],
+  //   description: `LTousuke Rokudou is a first-year attending Aomori High, a school full of delinquents. He is often bullied by his classmates due to his incompatibility with their behavior, the only exceptions being his two good friends who are also social outcasts. Frustrated at the way they are treated, the three wish they could stand up and claim the fun, peaceful school life of their dreams.However, Tousuke's life takes a drastic turn when he receives a package from his late grandfather containing their family heirloom, a scroll said to possess the power to save him from impending danger. Upon holding the scroll, a sudden glow emanates, leaving a strange mark on Tousuke's forehead.Thinking that he's received the means to free himself and his friends from their daily treatment, Tousuke is shocked to find out that its effects are far different than what he had imagined. Although his bullying continues, he realizes that the mark from the scroll acts as a charm, capturing the hearts of delinquent girls—in particular, Ranna Himawari, the strongest of them all.`,
+  //   thumbnail: require("../assets/images/rokudo's_bad_girl.jpeg"),
+  // },
+];
