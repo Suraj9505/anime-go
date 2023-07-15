@@ -13,10 +13,11 @@ import {
   trendingSlider,
   latestUpdate,
   trendingShow,
-} from "../../staticData/data";
-import HeroCard from "../card/hero-card";
-import TrendingCard from "../card/trending-card";
-import SectionSlider from "../slider/section-slider";
+  popularShow,
+} from "../staticData/data";
+import HeroCard from "../components/card/hero-card";
+import TrendingCard from "../components/card/trending-card";
+import SectionSlider from "../components/slider/section-slider";
 
 const Home = memo(() => {
   return (
@@ -57,8 +58,14 @@ const Home = memo(() => {
         <div className="trending-slider ms-3 mt-5">
           <h3 className="trending-title mb-4">Trending</h3>
           <Swiper
-            slidesPerView={6}
-            spaceBetween={20}
+            breakpoints={{
+              316: { slidesPerView: 1, spaceBetween: 50 },
+              400: { slidesPerView: 2, spaceBetween: 10 },
+              750: { slidesPerView: 3 },
+              900: { slidesPerView: 4 },
+              1200: { slidesPerView: 6 },
+            }}
+            spaceBetween={15}
             modules={[Navigation]}
             navigation={true}
             // loop={true}
@@ -80,7 +87,17 @@ const Home = memo(() => {
           <div className="section-swiper mt-4">
             <h3 className="section-swiper-title ms-4 ">Latest Update</h3>
             <Swiper
-              slidesPerView={5}
+              breakpoints={{
+                316: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                  navigation: false,
+                },
+                400: { slidesPerView: 2, spaceBetween: 10 },
+                750: { slidesPerView: 3 },
+                1000: { slidesPerView: 4 },
+                1200: { slidesPerView: 5 },
+              }}
               spaceBetween={10}
               modules={[Navigation]}
               navigation={true}
@@ -128,7 +145,7 @@ const Home = memo(() => {
               navigation={true}
               loop={true}
             >
-              {latestUpdate.map((item, index) => {
+              {popularShow.map((item, index) => {
                 return (
                   <SwiperSlide key={index}>
                     <SectionSlider

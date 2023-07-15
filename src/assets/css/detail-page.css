@@ -1,0 +1,132 @@
+.details-content-wrapper {
+  /* position: absolute; */
+  width: 75%;
+  padding: 5em 0 0 2.5em;
+  z-index: 1;
+}
+
+.details-content-wrapper img {
+  align-self: flex-start;
+}
+
+.details-sub {
+  color: var(--text-black);
+  font-size: 0.8em;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.detail-category {
+  background-color: var(--text-white);
+  padding: 0.2em 0.4em;
+  border-radius: 5px 0 0 5px;
+}
+
+.sub-ep {
+  background-color: var(--bg-sub-ep);
+  padding: 0.2em 0.3em;
+}
+
+.dub-ep {
+  background-color: var(--bg-dub-ep);
+  padding: 0.2em 0.3em;
+}
+.total-ep {
+  background-color: var(--bg-total-ep);
+  padding: 0.2em 0.3em;
+}
+
+.detail-btns {
+  letter-spacing: 1.5px;
+}
+
+.watch-now,
+.add-to {
+  text-decoration: none;
+  color: var(--text-black);
+}
+
+.watch-now {
+  background-color: var(--tertiary-btn);
+  padding: 0.7em 1.8em;
+  border-radius: 100px;
+}
+
+.add-to {
+  background-color: var(--text-white);
+  padding: 0.7em 1.8em;
+  border-radius: 100px;
+}
+
+.add-to:hover {
+  background-color: var(--bg-total-ep);
+  color: var(--text-white);
+}
+
+.description {
+  /* display: -webkit-box; */
+  font-size: 0.8em;
+  letter-spacing: 0.5px;
+  color: #bbbbbb;
+  padding-right: 10em;
+  /* -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+.detail-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 25%;
+  padding: 4em 0 4em 2em;
+}
+
+.item {
+  margin: 0 0 0.9em 0;
+  font-size: 0.9em;
+}
+
+.item-head {
+  font-weight: 500;
+}
+
+.item-name {
+  font-size: 0.9em;
+  letter-spacing: 0.7px;
+}
+
+.item .genres-item {
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.4em;
+  padding: 0.2em 0.6em;
+  border: 1px solid #636262;
+  border-radius: 100px;
+}
+
+.season-container {
+  background-color: var(--bg-primary);
+  /* height: 30vh; */
+}
+
+.season-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
+  grid-gap: 5px; /* Adjust the gap as needed */
+}
+
+.season-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  border: 1px solid var(--text-white);
+  border-radius: 1em;
+  word-wrap: break-word;
+  text-decoration: none;
+  color: var(--text);
+}

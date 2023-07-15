@@ -1,16 +1,12 @@
 // import logo from "./logo.svg";
-import "./App.css";
-import Footer from "./components/footer/footer";
-import Header from "./components/headers/header.jsx";
-import Home from "./components/views/home";
+import { Fragment } from "react";
+// import "./App.css";
 
-function App() {
+function App({ children }) {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
+    <Fragment>
+      <div className="App">{children}</div>
+    </Fragment>
   );
 }
 

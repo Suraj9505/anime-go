@@ -8,7 +8,7 @@ export const anime = [
     total_ep: "11",
     categories: ["2023", "r", "sub", "dub", "tv"],
     description: "Swordsmith Village Arc of Kimetsu no Yaiba.",
-    thumbnail: require("../assets/images/DemonSlayer_Season3_Poster.jpg"),
+    thumbnail: require("../assets/images/demon_slayer/DemonSlayer_Season3_Poster.jpg"),
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const anime = [
     categories: ["2023", "sub", "dub", "tv"],
     description:
       "Yukito's parents are the leaders of a cult. After he gets sacrificed, he gets reincarnated into another world where religion doesn't exist and porn books are akin to a child's doodles. He finds that it's also a world where your life and death is decided by the country. While obstructing his friend's execution, both of them lose their lives. Just at that moment, the god of his religion comes to their world and revives them.",
-    thumbnail: require("../assets/images/kamikatsu_full.avif"),
+    thumbnail: require("../assets/images/kamikatsu/kamikatsu_full.avif"),
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const anime = [
     categories: ["2023", "sub", "dub", "tv"],
     description:
       "A chance to come back! A mysterious door stands open, inviting a boy who's been brutally bullied all his life to take a courageous step forward into the unknown. On the other side, he finds a hoard of priceless artifacts and a world as filled with magic as it is with monsters. The most shocking revelation, however, is that he can bring whatever he wants back with him when he returns to Earth. It won't be long before this double life changes him forever...",
-    thumbnail: require("../assets/images/cheat-skill-anime.webp"),
+    thumbnail: require("../assets/images/cheat_skill/cheat-skill-anime.webp"),
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ export const anime = [
     total_ep: "",
     categories: ["1999", "sub", "pg-13", "tv"],
     description: `Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King. Enter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.`,
-    thumbnail: require("../assets/images/one_piece_full.jpe"),
+    thumbnail: require("../assets/images/one_piece/one_piece_full.jpe"),
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ export const anime = [
     total_ep: "11",
     categories: ["2023", "pg-13", "sub", "dub", "tv"],
     description: `Sixteen-year-old Ai Hoshino is a talented and beautiful idol who is adored by her fans. She is the personification of a pure, young maiden. But all that glitters is not gold. Gorou Amemiya is a countryside gynecologist and a big fan of Ai. So when the pregnant idol shows up at his hospital, he is beyond bewildered. Gorou promises her a safe delivery. Little does he know, an encounter with a mysterious figure would result in his untimely death—or so he thought.Opening his eyes in the lap of his beloved idol, Gorou finds that he has been reborn as Aquamarine Hoshino—Ai's newborn son! With his world turned upside down, Gorou soon learns that the world of showbiz is paved with thorns, where talent does not always beget success. Will he manage to protect Ai's smile that he loves so much with the help of an eccentric and unexpected ally?`,
-    thumbnail: require("../assets/images/oshi_no_ko_full.jpg"),
+    thumbnail: require("../assets/images/oshi_no_ko/oshi_no_ko_full.jpg"),
   },
   {
     id: 8,
@@ -133,7 +133,7 @@ export const anime = [
     total_ep: "",
     categories: ["2023", "g", "sub", "tv"],
     description: `A major incident has occurred in the peaceful Sky Land!? The young Princess Elle has been kidnapped by the monsters of Underg Empire! A brave young girl, Sora, follows the princess through a mysterious hole. "TV"? "Cars"? Are those some kind of magic tools!?!? But there's no time to be surprised! She has to get the princess back to the castle...! Flying between two worlds! The adventure with the Pretty Cure begins now! It's hero time!`,
-    thumbnail: require("../assets/images/pretty_cure.jpeg"),
+    thumbnail: require("../assets/images/pretty_cure/pretty_cure.jpeg"),
   },
   {
     id: 12,
@@ -144,7 +144,7 @@ export const anime = [
     total_ep: "",
     categories: ["2023", "pg-13", "sub", "dub", "movie"],
     description: `As a lionhearted boy who can’t wield magic strives for the title of Wizard King, four banished Wizard Kings of yore return to crush the Clover Kingdom.`,
-    thumbnail: require("../assets/images/black_clover_movie.jpg"),
+    thumbnail: require("../assets/images/black_clover/black_clover_movie.jpg"),
   },
   {
     id: 13,
@@ -153,9 +153,33 @@ export const anime = [
     sub_ep: "366",
     dub_ep: "366",
     total_ep: "366",
+    japanese: "BLEACH - ブリーチ -",
+    aired: "Oct 5, 2004 to Mar 27, 2012",
+    premiered: "fall 2004",
+    duration: "24min",
+    status: "finished airing",
+    mal_score: "7.8",
+    genres: [
+      "action",
+      "adventure",
+      "supernatural",
+      "comedy",
+      "shounen",
+      "super power",
+    ],
+    studio: "studio pierrot",
+    seasons: [
+      "bleach: the series (2004)",
+      "bleach movie 1",
+      "bleach movie 2",
+      "bleach movie 3",
+      "bleach movie 4",
+      "bleach: tybw",
+      "bleach: tybw-the-separation",
+    ],
     categories: ["2004", "pg-13", "sub", "dub", "tv"],
     description: `Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit that seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, who gets injured while protecting Ichigo's family from the assailant. To save his family, Ichigo accepts Rukia's offer of taking her powers and becomes a Soul Reaper as a result. However, as Rukia is unable to regain her powers, Ichigo is given the daunting task of hunting down the Hollows that plague their town. However, he is not alone in his fight, as he is later joined by his friends—classmates Orihime Inoue, Yasutora Sado, and Uryuu Ishida—who each have their own unique abilities. As Ichigo and his comrades get used to their new duties and support each other on and off the battlefield, the young Soul Reaper soon learns that the Hollows are not the only real threat to the human world.`,
-    thumbnail: require("../assets/images/bleach.jpeg"),
+    thumbnail: require("../assets/images/bleach/bleach.jpeg"),
   },
   {
     id: 13,
@@ -166,7 +190,7 @@ export const anime = [
     total_ep: "13",
     categories: ["2023", "pg-13", "sub", "dub", "tv"],
     description: `Substitute Soul Reaper Ichigo Kurosaki spends his days fighting against Hollows, dangerous evil spirits that threaten Karakura Town. Ichigo carries out his quest with his closest allies: Orihime Inoue, his childhood friend with a talent for healing; Yasutora Sado, his high school classmate with superhuman strength; and Uryuu Ishida, Ichigo's Quincy rival. Ichigo's vigilante routine is disrupted by the sudden appearance of Asguiaro Ebern, a dangerous Arrancar who heralds the return of Yhwach, an ancient Quincy king. Yhwach seeks to reignite the historic blood feud between Soul Reaper and Quincy, and he sets his sights on erasing both the human world and the Soul Society for good. Yhwach launches a two-pronged invasion into both the Soul Society and Hueco Mundo, the home of Hollows and Arrancar. In retaliation, Ichigo and his friends must fight alongside old allies and enemies alike to end Yhwach's campaign of carnage before the world itself comes to an end.`,
-    thumbnail: require("../assets/images/bleach_tybw.jpg"),
+    thumbnail: require("../assets/images/bleach/bleach_tybw.jpg"),
   },
   {
     id: 14,
@@ -188,7 +212,7 @@ export const anime = [
     total_ep: "",
     categories: ["1996", "pg-13", "sub", "dub", "tv"],
     description: `Shinichi Kudou, a high school student of astounding talent in detective work, is well known for having solved several challenging cases. One day, when Shinichi spots two suspicious men and decides to follow them, he inadvertently becomes witness to a disturbing illegal activity. Unfortunately, he is caught in the act, so the men dose him with an experimental drug formulated by their criminal organization, leaving him to his death. However, to his own astonishment, Shinichi lives to see another day, but now in the body of a seven-year-old child.`,
-    thumbnail: require("../assets/images/case_closed.jpe"),
+    thumbnail: require("../assets/images/case_closed/case_closed.jpe"),
   },
   {
     id: 15,
@@ -211,7 +235,7 @@ export const anime = [
     total_ep: "13",
     categories: ["2022", "pg-13", "sub", "dub", "tv"],
     description: `All his life, Yuuya Tenjou has been the subject of resentment and contempt from everyone around him, even from his parents. To make matters worse, his grandfather—the only person who ever showed him affection—suddenly dies, leaving Yuuya truly alone. Despite facing many adversities, Yuuya does what he can to offer kindness to those who need it—but even the most good-natured people can only tolerate so much abuse. Just when he reaches his breaking point, a flicker of hope appears in the form of a hidden door in his bathroom. This door provides two-way access to an abandoned house in another world, where he instantly gains game-like stats and skills. Moreover, the house once belonged to a sage, which gives Yuuya access to remarkable weapons, equipment, and crops with extraordinary effects. With these newfound blessings, the once-undesirable Yuuya may just reach his true potential and become unstoppable. `,
-    thumbnail: require("../assets/images/cheat_skill.jpg"),
+    thumbnail: require("../assets/images/cheat_skill/cheat_skill.jpg"),
   },
   {
     id: 17,
@@ -222,7 +246,7 @@ export const anime = [
     total_ep: "26",
     categories: ["1998", "r", "sub", "dub", "tv"],
     description: `In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as "Cowboys." The ragtag team aboard the spaceship Bebop are two such individuals. Mellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each member's dark and mysterious past little by little. Well-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after. `,
-    thumbnail: require("../assets/images/cowboy_bepop.jpg"),
+    thumbnail: require("../assets/images/cowboy_bepop/cowboy_bepop.jpg"),
   },
   {
     id: 18,
@@ -233,7 +257,7 @@ export const anime = [
     total_ep: "11",
     categories: ["2023", "r", "sub", "dub", "tv"],
     description: `Swordsmith Village Arc of Kimetsu no Yaiba.`,
-    thumbnail: require("../assets/images/demon_slayer_s3.jpe"),
+    thumbnail: require("../assets/images/demon_slayer/demon_slayer_s3.jpe"),
   },
   {
     id: 19,
@@ -244,7 +268,7 @@ export const anime = [
     total_ep: "153",
     categories: ["1986", "pg-13", "sub", "dub", "tv"],
     description: `SON-Goku is a young boy who lives in the woods all alone—that is, until a girl named Bulma runs into him in her search for a set of magical objects called the "Dragon Balls." Since the artifacts are said to grant one wish to whoever collects all seven, Bulma hopes to gather them and wish for a perfect boyfriend. Goku happens to be in possession of a dragon ball, but unfortunately for Bulma, he refuses to part ways with it, so she makes him a deal: he can tag along on her journey if he lets her borrow the dragon ball's power. With that, the two set off on the journey of a lifetime. They don't go on the journey alone. On the way, they meet the old Muten-Roshi and wannabe disciple Kuririn, with whom Goku trains to become a stronger martial artist for the upcoming World Martial Arts Tournament. However, it's not all fun and games; the ability to make any wish come true is a powerful one, and there are others who would do much worse than just wishing for a boyfriend. To stop those who would try to abuse the legendary power, they train to become stronger fighters, using their newfound strength to help the people around them along the way.`,
-    thumbnail: require("../assets/images/dragon_ball.jpeg"),
+    thumbnail: require("../assets/images/dragon_ball/dragon_ball.jpeg"),
   },
   {
     id: 20,
@@ -255,7 +279,7 @@ export const anime = [
     total_ep: "291",
     categories: ["1989", "pg-13", "sub", "dub", "tv"],
     description: `Five years after winning the World Martial Arts tournament, SON-Goku is now living a peaceful life with his wife and son. This changes, however, with the arrival of a mysterious enemy named Raditz who presents himself as Goku's long-lost brother. He reveals that Goku is a warrior from the once powerful but now virtually extinct Saiyan race, whose homeworld was completely annihilated. When he was sent to Earth as a baby, Goku's sole purpose was to conquer and destroy the planet; but after suffering amnesia from a head injury, his violent and savage nature changed, and instead was raised as a kind and well-mannered boy, now fighting to protect others. With his failed attempt at forcibly recruiting Goku as an ally, Raditz warns Goku's friends of a new threat that's rapidly approaching Earth—one that could plunge Earth into an intergalactic conflict and cause the heavens themselves to shake. A war will be fought over the seven mystical dragon balls, and only the strongest will survive in Dragon Ball Z.`,
-    thumbnail: require("../assets/images/dragon_ball_z.jpg"),
+    thumbnail: require("../assets/images/dragon_ball/dragon_ball_z.jpg"),
   },
   {
     id: 21,
@@ -266,7 +290,7 @@ export const anime = [
     total_ep: "131",
     categories: ["2015", "pg-13", "sub", "dub", "tv"],
     description: `Seven years after the events of Dragon Ball Z, Earth is at peace, and its people live free from any dangers lurking in the universe. However, this peace is short-lived; a sleeping evil awakens in the dark reaches of the galaxy: Beerus, the ruthless God of Destruction. Disturbed by a prophecy that he will be defeated by a "Super Saiyan God," Beerus and his angelic attendant Whis start searching the universe for this mysterious being. Before long, they reach Earth where they encounter SON-Goku, one of the planet's mightiest warriors, and his similarly powerful friends.`,
-    thumbnail: require("../assets/images/dragon_ball_super.jpg"),
+    thumbnail: require("../assets/images/dragon_ball/dragon_ball_super.jpg"),
   },
   {
     id: 22,
@@ -277,7 +301,7 @@ export const anime = [
     total_ep: "11",
     categories: ["2023", "pg-13", "sub", "dub", "tv"],
     description: `With the ambitious Ryuusui Nanami on board, Senkuu Ishigami and his team are almost ready to sail the seas and reach the other side of the world—where the bizarre green light that petrified humanity originated. Thanks to the revival of a skillful chef, enough food is being prepared for the entire crew, and the incredible reinvention of the GPS promises to ensure safety on the open sea. Preparations for the upcoming journey progress swimmingly until Senkuu receives an eerie message from a mysterious source. More driven than ever, the scientist sets out to explore the new world and discover what it can offer for his scientific cause. Though the uncharted territories may hide unkind surprises, Senkuu, with a little help from science, is ready to take on any challenge.`,
-    thumbnail: require("../assets/images/dr_stone.jpeg"),
+    thumbnail: require("../assets/images/dr.stone/dr_stone.jpeg"),
   },
   {
     id: 23,
@@ -288,7 +312,7 @@ export const anime = [
     total_ep: "",
     categories: ["2023", "pg-13", "sub", "tv"],
     description: `Now in possession of the Edens Zero, Shiki Granbell has gathered the Four Shining Stars. With the help of his new friends, Shiki will be able to breach Dragonfall—the border of the Sakura Cosmos swarming with mechanical dragons. Once that is achieved, he can continue his quest to find the goddess Mother. Before the Edens Zero crew can advance their journey, they notice a mysterious warship following them. Upon learning that the ship—the Belial Gore—belongs to Drakken Joe, Shiki and his crew attempt to infiltrate it, intent on figuring out why the Dark Alchemist is after them. In the process, the Edens Zero is taken hostage by Drakken's subordinates. Though they are in a tight situation, Shiki refuses to back down. Working together with his friends, Shiki will have to take down the Dark Alchemist if he hopes to make it out of the Belial Gore alive.`,
-    thumbnail: require("../assets/images/edens_zero_s2.jpg"),
+    thumbnail: require("../assets/images/edens_zero/edens_zero_s2.jpg"),
   },
   {
     id: 24,
@@ -299,12 +323,12 @@ export const anime = [
     total_ep: "12",
     categories: ["2014", "r", "sub", "dub", "tv"],
     description: `The Holy Grail War is a battle royale among seven magi who serve as Masters. Masters, through the use of the command seals they are given when they enter the war, command Heroic Spirits known as Servants to fight for them in battle. In the Fifth Holy Grail War, Rin Toosaka is among the magi entering the competition. With her Servant, Archer, she hopes to obtain the ultimate prize—the Holy Grail, a magical artifact capable of granting its wielder any wish. One of Rin's classmates, Emiya Shirou, accidentally enters the competition and ends up commanding a Servant of his own known as Saber. As they find themselves facing mutual enemies, Rin and Shirou decide to form a temporary alliance as they challenge their opponents in the Holy Grail War.`,
-    thumbnail: require("../assets/images/fate_stay_night.jpg"),
+    thumbnail: require("../assets/images/fate_series/fate_stay_night.jpg"),
   },
   {
     id: 25,
     title: "Fullmetal Alchemist: Brotherhood",
-    slug: "fullmetal-alchemist",
+    slug: "fmab",
     sub_ep: "64",
     dub_ep: "64",
     total_ep: "64",
@@ -332,7 +356,7 @@ export const anime = [
     total_ep: "75",
     categories: ["2000", "pg-13", "sub", "dub", "tv"],
     description: `Makunouchi Ippo has been bullied his entire life. Constantly running errands and being beaten up by his classmates, Ippo has always dreamed of changing himself, but never has the passion to act upon it. One day, in the midst of yet another bullying, Ippo is saved by Takamura Mamoru, who happens to be a boxer. Ippo faints from his injuries and is brought to the Kamogawa boxing gym to recover. As he regains consciousness, he is awed and amazed at his new surroundings in the gym, though lacks confidence to attempt anything. Takamura places a photo of Ippo's classmate on a punching bag and forces him to punch it. It is only then that Ippo feels something stir inside him and eventually asks Takamura to train him in boxing. Thinking that Ippo does not have what it takes, Takamura gives him a task deemed impossible and gives him a one week time limit. With a sudden desire to get stronger, for himself and his hard working mother, Ippo trains relentlessly to accomplish the task within the time limit. Thus Ippo's journey to the top of the boxing world begins.`,
-    thumbnail: require("../assets/images/hajime_no_ippo.jpg"),
+    thumbnail: require("../assets/images/hajime/hajime_no_ippo.jpg"),
   },
   {
     id: 28,
@@ -343,7 +367,7 @@ export const anime = [
     total_ep: "13",
     categories: ["2001", "r", "sub", "dub", "tv"],
     description: `Hellsing, an organization specializing in dealing with supernatural threats, is called in to eliminate a vampire that is turning the villagers of Cheddar into ghouls. To put an end to this, the leader of the organization, Sir Integra Fairbrook Wingates Hellsing, dispatches her most formidable asset: a powerful vampire known as Alucard. Armed with only a single handgun, Alucard wreaks havoc on the monsters plaguing Cheddar. However, a young police officer, Seras Victoria, gets caught up in the chaos and becomes mortally wounded as a result. Taking pity on the girl, Alucard gives her a choice: die as a human or live on as a vampire. Seras accepts his offer and begins a new life as a member of Hellsing. Though it was her decision, Seras struggles with the fact that she is no longer human. Nevertheless, she must embrace being a creature of the night soon if she wants to survive on the front lines in the fight between humans and the supernatural.`,
-    thumbnail: require("../assets/images/hellsing.jpg"),
+    thumbnail: require("../assets/images/hellsing/hellsing.jpg"),
   },
   {
     id: 28,
@@ -376,7 +400,7 @@ export const anime = [
     total_ep: "12",
     categories: ["2023", "pg-13", "sub", "dub", "tv"],
     description: `Under the belief that the omnipotent god Mitama will come to save him, Yukito Urabe participates in a ritual to become the new leader of his father's cult. But when the boy drowns during the ritual, he wishes to be reborn in a world without gods or religion. Reawakening in a completely different world devoid of spirituality. He meets a deviant girl named Aruaru, who introduces him to her village. However, his idyllic image of this world's society is short-lived when he witnesses a public group suicide and learns of the country's end-of-life system: at any moment, the government may order any citizen to die. Aruaru and her sister are forcibly taken for execution soon after, prompting Yukito to rush to their rescue—but to no avail. In a moment of desperation, Yukito recalls his father's teachings and utters a prayer for Mitama to save them. Seemingly answering his call, a little girl descends from the sky and annihilates everyone who harmed Yukito and his friends. To Yukito's surprise, the girl introduces herself as Mitama.`,
-    thumbnail: require("../assets/images/kamikatsu_1.jpe"),
+    thumbnail: require("../assets/images/kamikatsu/kamikatsu_1.jpe"),
   },
   {
     id: 31,
@@ -409,7 +433,7 @@ export const anime = [
     total_ep: "23",
     categories: ["2022", "pg-13", "sub", "dub", "tv"],
     description: `With Tomura Shigaraki at its helm, the former Liberation Army is now known as the Paranormal Liberation Front. This organized criminal group poses an immense threat to the Hero Association, not only because of its sheer size and strength, but also the overpowering quirks of Jin "Twice" Bubaigawara and Gigantomachia. As new intel from the covert hero Keigo "Hawks" Takami confirms that Shigaraki is nowhere to be seen, the Hero Association decides to strike the enemy headquarters with a surprise attack using the entirety of its assets—and the UA students find themselves on the battlefield once again. As the fight rages on, the unsuspecting villains must regroup and push back, but the brave heroes are determined to eradicate every last one of them.`,
-    thumbnail: require("../assets/images/mha_s6.jpeg"),
+    thumbnail: require("../assets/images/mha/mha_s6.jpeg"),
   },
   {
     id: 34,
@@ -431,7 +455,7 @@ export const anime = [
     total_ep: "220",
     categories: ["2002", "pg-13", "sub", "dub", "tv"],
     description: `Moments prior to Naruto Uzumaki's birth, a huge demon known as the Kyuubi, the Nine-Tailed Fox, attacked Konohagakure, the Hidden Leaf Village, and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the Fourth Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto. Now, Naruto is a hyperactive and knuckle-headed ninja still living in Konohagakure. Shunned because of the Kyuubi inside him, Naruto struggles to find his place in the village, while his burning desire to become the Hokage of Konohagakure leads him not only to some great new friends, but also some deadly foes.`,
-    thumbnail: require("../assets/images/naruto.jpg"),
+    thumbnail: require("../assets/images/naruto/naruto.jpg"),
   },
   {
     id: 36,
@@ -442,7 +466,7 @@ export const anime = [
     total_ep: "",
     categories: ["1999", "sub", "pg-13", "tv"],
     description: `Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King. Enter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.`,
-    thumbnail: require("../assets/images/one_piece.jpeg"),
+    thumbnail: require("../assets/images/one_piece/one_piece.jpeg"),
   },
   {
     id: 37,
@@ -453,7 +477,7 @@ export const anime = [
     total_ep: "11",
     categories: ["2023", "pg-13", "sub", "dub", "tv"],
     description: `Sixteen-year-old Ai Hoshino is a talented and beautiful idol who is adored by her fans. She is the personification of a pure, young maiden. But all that glitters is not gold. Gorou Amemiya is a countryside gynecologist and a big fan of Ai. So when the pregnant idol shows up at his hospital, he is beyond bewildered. Gorou promises her a safe delivery. Little does he know, an encounter with a mysterious figure would result in his untimely death—or so he thought.Opening his eyes in the lap of his beloved idol, Gorou finds that he has been reborn as Aquamarine Hoshino—Ai's newborn son! With his world turned upside down, Gorou soon learns that the world of showbiz is paved with thorns, where talent does not always beget success. Will he manage to protect Ai's smile that he loves so much with the help of an eccentric and unexpected ally?`,
-    thumbnail: require("../assets/images/oshi_no_ko.jpg"),
+    thumbnail: require("../assets/images/oshi_no_ko/oshi_no_ko.jpg"),
   },
   {
     id: 38,
@@ -475,7 +499,7 @@ export const anime = [
     total_ep: "13",
     categories: ["2023", "r", "sub", "dub", "tv"],
     description: `In spite of his best time-leaping efforts, Takemichi Hanagaki continuously fails to prevent the present-day death of Hinata Tachibana, his adolescent love. The adult Takemichi grapples with grief and the ramifications of the Tokyo Manji gang's criminal empire—an unintended product of his timeline meddling. Though the gang once operated under the idealistic Manjirou "Mikey" Sano, it has now been taken over by the malicious Tetta Kisaki and, as a result, has abandoned its original optimistic intent. Despite feeling hopeless, Takemichi travels to the past once again to investigate Black Dragon, a rival motorcycle gang whose actions ultimately lead to Hinata's demise. There, he meets the young Hakkai Shiba, a fellow gang member whose older brother, Taiju, tyrannically rules Black Dragon. When Taiju brutally beats Takemichi in a one-sided street brawl, Hakkai attempts to withdraw from Tokyo Manji in apology—an act that Takemichi must prevent to spare Hakkai a grim future. Through a shared tragedy, Takemichi bonds with Chifuyu Matsuno, establishing a close comradery both boys desperately need. With Chifuyu on his side, Takemichi works to unravel the fates of Black Dragon's members, fighting to create a happy future for his loved ones.`,
-    thumbnail: require("../assets/images/tokyo_revengers_s2.webp"),
+    thumbnail: require("../assets/images/tokyo_revengers/tokyo_revengers_s2.webp"),
   },
   {
     id: 40,
@@ -486,7 +510,7 @@ export const anime = [
     total_ep: "10",
     categories: ["2023", "pg-13", "sub", "dub", "tv"],
     description: `The people of the kingdom look down on the young Prince Bojji, who can neither hear nor speak. They call him "The Useless Prince" while jeering at his supposed foolishness. However, while Bojji may not be physically strong, he is certainly not weak of heart. When a chance encounter with a shadow creature should have left him traumatized, it instead makes him believe that he has found a friend amidst those who only choose to notice his shortcomings. He starts meeting with Kage, the shadow, regularly, to the point where even the otherwise abrasive creature begins to warm up to him. Kage and Bojji's unlikely friendship lays the budding foundations of the prince's journey, one where he intends to conquer his fears and insecurities. Despite the constant ridicule he faces, Bojji resolves to fulfill his desire of becoming the best king he can be.`,
-    thumbnail: require("../assets/images/ranking_of_kings_s2.jpeg"),
+    thumbnail: require("../assets/images/ranking_of_kings/ranking_of_kings_s2.jpeg"),
   },
   {
     id: 41,
@@ -497,7 +521,7 @@ export const anime = [
     total_ep: "94",
     categories: ["1996", "pg-13", "sub", "dub", "tv"],
     description: `In the final years of the Bakumatsu era lived a legendary assassin known as Hitokiri Battousai. Feared as a merciless killer, he was unmatched throughout the country, but mysteriously disappeared at the peak of the Japanese Revolution. It has been ten peaceful years since then, but the very mention of Battousai still strikes terror into the hearts of war veterans. Unbeknownst to them, Battousai has abandoned his bloodstained lifestyle in an effort to repent for his sins, now living as Kenshin Himura, a wandering swordsman with a cheerful attitude and a strong will. Vowing never to kill again, Kenshin dedicates himself to protecting the weak. One day, he stumbles across Kaoru Kamiya at her kendo dojo, which is being threatened by an impostor claiming to be Battousai. After receiving help from Kenshin, Kaoru allows him to stay at the dojo, and so the former assassin temporarily ceases his travels. Rurouni Kenshin: Meiji Kenkaku Romantan tells the story of Kenshin as he strives to save those in need of saving. However, as enemies from both past and present begin to emerge, will the reformed killer be able to uphold his new ideals?`,
-    thumbnail: require("../assets/images/rurouni_kenshin.jpg"),
+    thumbnail: require("../assets/images/rurouni_kenshin/rurouni_kenshin.jpg"),
   },
   {
     id: 42,
@@ -508,7 +532,7 @@ export const anime = [
     total_ep: "26",
     categories: ["2004", "r", "sub", "dub", "tv"],
     description: `Fuu Kasumi is a young and clumsy waitress who spends her days peacefully working in a small teahouse. That is, until she accidentally spills a drink all over one of her customers! With a group of samurai now incessantly harassing her, Fuu desperately calls upon another samurai in the shop, Mugen, who quickly defeats them with his wild fighting technique, utilizing movements reminiscent to that of breakdancing. Unfortunately, Mugen decides to pick a fight with the unwilling ronin Jin, who wields a more precise and traditional style of swordfighting, and the latter proves to be a formidable opponent. The only problem is, they end up destroying the entire shop as well as accidentally killing the local magistrate's son. For their crime, the two samurai are captured and set to be executed. However, they are rescued by Fuu, who hires the duo as her bodyguards. Though she no longer has a place to return to, the former waitress wishes to find a certain samurai who smells of sunflowers and enlists the help of the now exonerated pair to do so. Despite initially disapproving of this idea, the two eventually agree to assist the girl in her quest; thus, the trio embark upon an adventure to find this mysterious warrior—that is, if Fuu can keep Mugen and Jin from killing each other. Set in an alternate Edo Period of Japan, Samurai Champloo follows the journey of these three eccentric individuals in an epic quest full of action, comedy, and dynamic sword fighting, all set to the beat of a unique hip-hop infused soundtrack.`,
-    thumbnail: require("../assets/images/samurai_champolo.jpg"),
+    thumbnail: require("../assets/images/samurai_champloo/samurai_champloo.jpg"),
   },
   {
     id: 43,
@@ -519,7 +543,7 @@ export const anime = [
     total_ep: "101",
     categories: ["1993", "pg-13", "sub", "dub", "tv"],
     description: `Hanamichi Sakuragi, infamous for his temper, massive height, and fire-red hair, enrolls in Shohoku High, hoping to finally get a girlfriend and break his record of being rejected 50 consecutive times in middle school. His notoriety precedes him, however, leading to him being avoided by most students. Soon, after certain events, Hanamichi is left with two unwavering thoughts: "I hate basketball," and "I desperately need a girlfriend." One day, a girl named Haruko Akagi approaches him without any knowledge of his troublemaking ways and asks him if he likes basketball. Hanamichi immediately falls head over heels in love with her, blurting out a fervent affirmative. She then leads him to the gymnasium, where she asks him if he can do a slam dunk. In an attempt to impress Haruko, he makes the leap, but overshoots, instead slamming his head straight into the blackboard. When Haruko informs the basketball team's captain of Hanamichi's near-inhuman physical capabilities, he slowly finds himself drawn into the camaraderie and competition of the sport he had previously held resentment for.`,
-    thumbnail: require("../assets/images/slam_dunk.jpg"),
+    thumbnail: require("../assets/images/slam_dunk/slam_dunk.jpg"),
   },
   {
     id: 44,
@@ -552,7 +576,7 @@ export const anime = [
     total_ep: "12",
     categories: ["2023", "pg-13", "sub", "dub", "tv"],
     description: `Apprentice mage Chise Hatori is invited to enroll at the College, a prestigious learning institution for sorcerers, to examine and look for a way to remove the curses she bears. Despite her groom Elias Ainsworth's reluctance, Chise accepts the proposal, as she believes attending the school might help her minimize her self-sacrificing tendencies. From the get-go, Chise grabs the attention of her classmates and professors alike, who have never seen a mage in action before. However, there is a sinister plot brewing behind the College's back, and the young mage will have to determine who is friend or foe in order to put a stop to it.`,
-    thumbnail: require("../assets/images/the_anicient_magus.jpe"),
+    thumbnail: require("../assets/images/magus_bride/the_anicient_magus.jpe"),
   },
   {
     id: 47,
@@ -585,7 +609,7 @@ export const anime = [
     total_ep: "26",
     categories: ["1998", "pg-13", "sub", "dub", "tv"],
     description: `Vash the Stampede is the man with a $$60,000,000,000 bounty on his head. The reason: he's a merciless villain who lays waste to all those that oppose him and flattens entire cities for fun, garnering him the title "The Humanoid Typhoon." He leaves a trail of death and destruction wherever he goes, and anyone can count themselves dead if they so much as make eye contact—or so the rumors say. In actuality, Vash is a huge softie who claims to have never taken a life and avoids violence at all costs. With his crazy doughnut obsession and buffoonish attitude in tow, Vash traverses the wasteland of the planet Gunsmoke, all the while followed by two insurance agents, Meryl Stryfe and Milly Thompson, who attempt to minimize his impact on the public. But soon, their misadventures evolve into life-or-death situations as a group of legendary assassins are summoned to bring about suffering to the trio. Vash's agonizing past will be unraveled and his morality and principles pushed to the breaking point.`,
-    thumbnail: require("../assets/images/trigun.jpg"),
+    thumbnail: require("../assets/images/trigun/trigun.jpg"),
   },
   {
     id: 50,
@@ -607,7 +631,7 @@ export const anime = [
     total_ep: "24",
     categories: ["2019", "r", "sub", "dub", "tv"],
     description: `Young Thorfinn grew up listening to the stories of old sailors that had traveled the ocean and reached the place of legend, Vinland. It's said to be warm and fertile, a place where there would be no need for fighting—not at all like the frozen village in Iceland where he was born, and certainly not like his current life as a mercenary. War is his home now. Though his father once told him, "You have no enemies, nobody does. There is nobody who it's okay to hurt," as he grew, Thorfinn knew that nothing was further from the truth. The war between England and the Danes grows worse with each passing year. Death has become commonplace, and the viking mercenaries are loving every moment of it. Allying with either side will cause a massive swing in the balance of power, and the vikings are happy to make names for themselves and take any spoils they earn along the way. Among the chaos, Thorfinn must take his revenge and kill Askeladd, the man who murdered his father. The only paradise for the vikings, it seems, is the era of war and death that rages on.`,
-    thumbnail: require("../assets/images/vinland_saga.jpg"),
+    thumbnail: require("../assets/images/vinland_saga/vinland_saga.jpg"),
   },
   {
     id: 52,
@@ -618,7 +642,7 @@ export const anime = [
     total_ep: "24",
     categories: ["2023", "r", "sub", "dub", "tv"],
     description: `After his father's death and the destruction of his village at the hands of English raiders, Einar wishes for a peaceful life with his family on their newly rebuilt farms. However, fate has other plans: his village is invaded once again. Einar watches helplessly as the marauding Danes burn his lands and slaughter his family. The invaders capture Einar and take him back to Denmark as a slave. Einar clings to his mother's final words to survive. He is purchased by Ketil, a kind slave owner and landlord who promises that Einar can regain his freedom in return for working in the fields. Soon, Einar encounters his new partner in farm cultivation—Thorfinn, a dejected and melancholic slave. As Einar and Thorfinn work together toward their freedom, they are haunted by both sins of the past and the ploys of the present. Yet they carry on, grasping for a glimmer of hope, redemption, and peace in a world that is nothing but unjust and unforgiving. `,
-    thumbnail: require("../assets/images/vinland_saga_s2.jpg"),
+    thumbnail: require("../assets/images/vinland_saga/vinland_saga_s2.jpg"),
   },
   {
     id: 53,
@@ -661,9 +685,9 @@ export const trendingSlider = [
 
 export const latestUpdate = [
   filterAnime("one-piece-trending"),
+  filterAnime("kimetsu-no-yaiba-s3"),
   filterAnime("hell's-paradise"),
   filterAnime("loving-yamada-at-lv999"),
-  filterAnime("kimetsu-no-yaiba-s3"),
   filterAnime("cheat-skill"),
   filterAnime("vinland-saga-s2"),
   filterAnime("too-cute-crisis"),
@@ -693,4 +717,22 @@ export const trendingShow = [
   filterAnime("the-ancient-magus'-bride-s2"),
   filterAnime("hero-is-dead"),
   filterAnime("magical-destroyer"),
+];
+
+export const popularShow = [
+  filterAnime("naruto"),
+  filterAnime("bleach"),
+  filterAnime("trigun"),
+  filterAnime("cowboy-bepop"),
+  filterAnime("rurouni-kenshin"),
+  filterAnime("fmab"),
+  filterAnime("dragon-ball"),
+  filterAnime("dragon-ball-z"),
+  filterAnime("hajime-no-ippo"),
+  filterAnime("hellsing"),
+  filterAnime("fate-stay-night"),
+  filterAnime("samurai-champloo"),
+  filterAnime("cardcaptor-sakura"),
+  filterAnime("great-teacher-onizuka"),
+  filterAnime("slam-dunk"),
 ];
