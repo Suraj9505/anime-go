@@ -3,13 +3,13 @@ import React, { Fragment } from "react";
 //data
 import { filterAnime } from "../staticData/data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import SideBar from "../components/card/sidebar-card";
 import MoreSeasons from "../components/card/more-seasons";
 
 const DetailsPage = () => {
-  const anime = filterAnime("bleach");
-  //   console.log(anime);
+  const { slug } = useParams();
+  const anime = filterAnime(slug);
   return (
     <Fragment>
       <div className="details-wrapper mb-5">
@@ -64,6 +64,7 @@ const DetailsPage = () => {
           </div>
           <SideBar
             japanese={anime.japanese}
+            synonyms={anime.synonyms}
             aired={anime.aired}
             genres={anime.genres}
             premiered={anime.premiered}
@@ -73,8 +74,7 @@ const DetailsPage = () => {
             status={anime.status}
           />
         </div>
-
-        <MoreSeasons seasons={anime.seasons} />
+        {anime.seasons ? <MoreSeasons seasons={anime.seasons} /> : ""}
       </div>
     </Fragment>
   );

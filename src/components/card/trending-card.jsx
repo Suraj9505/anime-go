@@ -1,5 +1,6 @@
 import React, { Fragment, memo } from "react";
 import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 // import { Swiper, SwiperSlide } from "swiper/react";
 
 const TrendingCard = memo((props) => {
@@ -16,11 +17,13 @@ const TrendingCard = memo((props) => {
             <span className="trending-number ms-2 mx-2">{props.index + 1}</span>
           )}
         </div>
-        <img
-          className="trending-image"
-          src={props.thumbnail}
-          alt={props.title}
-        />
+        <Link to={`/details-page/${props.slug}`}>
+          <img
+            className="trending-image"
+            src={props.thumbnail}
+            alt={props.title}
+          />
+        </Link>
       </Card>
     </Fragment>
   );

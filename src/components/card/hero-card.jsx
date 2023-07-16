@@ -29,7 +29,10 @@ const HeroCard = memo((props) => {
               <FontAwesomeIcon icon="circle-play" />
               <span className="ms-2">Watch Now</span>
             </Link>
-            <Link to="#" className="detail-btn btn btn-primary">
+            <Link
+              to={`/details-page/${props.slug}`}
+              className="detail-btn btn btn-primary"
+            >
               <span className="mx-3">Detail</span>
               <FontAwesomeIcon icon="chevron-right" />
             </Link>

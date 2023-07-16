@@ -10,6 +10,16 @@ const SideBar = memo((props) => {
             {props.japanese}
           </span>
         </div>
+        {props.synonyms ? (
+          <div className="item">
+            <span className="item-head text-capitalize">synonyms:</span>
+            <span className="item-name ms-2 text-capitalize">
+              {props.synonyms}
+            </span>
+          </div>
+        ) : (
+          ""
+        )}
         <div className="item">
           <span className="item-head text-capitalize">aired:</span>
           <span className="item-name ms-2 text-capitalize">{props.aired}</span>

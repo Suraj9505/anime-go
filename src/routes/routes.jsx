@@ -17,7 +17,7 @@ export const DefaultRoutes = [
         element: <Home />,
       },
       {
-        path: "/details-page",
+        path: "/details-page/:slug",
         element: <DetailsPage />,
       },
     ],

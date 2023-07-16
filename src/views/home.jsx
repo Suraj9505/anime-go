@@ -45,6 +45,7 @@ const Home = memo(() => {
                       title={item.title}
                       description={item.description}
                       categories={item.categories}
+                      slug={item.slug}
                     />
                   </div>
                 </SwiperSlide>
@@ -77,6 +78,7 @@ const Home = memo(() => {
                     title={item.title}
                     thumbnail={item.thumbnail}
                     index={index}
+                    slug={item.slug}
                   />
                 </SwiperSlide>
               );
@@ -109,6 +111,7 @@ const Home = memo(() => {
                     <SectionSlider
                       thumbnail={item.thumbnail}
                       title={item.title}
+                      slug={item.slug}
                     />
                   </SwiperSlide>
                 );
@@ -130,6 +133,7 @@ const Home = memo(() => {
                     <SectionSlider
                       thumbnail={item.thumbnail}
                       title={item.title}
+                      slug={item.slug}
                     />
                   </SwiperSlide>
                 );
@@ -151,6 +155,7 @@ const Home = memo(() => {
                     <SectionSlider
                       thumbnail={item.thumbnail}
                       title={item.title}
+                      slug={item.slug}
                     />
                   </SwiperSlide>
                 );
