@@ -18,7 +18,7 @@ import HeroCard from "./components/card/hero-card";
 import TrendingCard from "./components/card/trending-card";
 import SectionSlider from "./components/slider/section-slider";
 
-const Home = memo(() => {
+const Index = memo(() => {
   return (
     <Fragment>
       <div className="main-container">
@@ -167,5 +167,5 @@ const Home = memo(() => {
   );
 });
 
-Home.displayName = "Home";
-export default Home;
+Index.displayName = "Index";
+export default Index;
