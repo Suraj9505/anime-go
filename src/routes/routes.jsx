@@ -4,7 +4,7 @@ import React from "react";
 import DefaultLayout from "../components/layouts/default-layout";
 
 //pages
-import Home from "../views/home";
+import Home from "./index";
 import DetailsPage from "../views/detail-page";
 
 export const DefaultRoutes = [

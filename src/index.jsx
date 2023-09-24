@@ -13,10 +13,10 @@ import {
   latestUpdate,
   trendingShow,
   popularShow,
-} from "../staticData/data";
-import HeroCard from "../components/card/hero-card";
-import TrendingCard from "../components/card/trending-card";
-import SectionSlider from "../components/slider/section-slider";
+} from "./staticData/data";
+import HeroCard from "./components/card/hero-card";
+import TrendingCard from "./components/card/trending-card";
+import SectionSlider from "./components/slider/section-slider";
 
 const Home = memo(() => {
   return (
