@@ -4,7 +4,7 @@ import React from "react";
 import DefaultLayout from "../components/layouts/default-layout";
 
 //pages
-import Index from "./index";
+import Home from "../home";
 import DetailsPage from "../views/detail-page";
 
 export const DefaultRoutes = [
@@ -14,7 +14,7 @@ export const DefaultRoutes = [
     children: [
       {
         path: "/",
-        element: <Index />,
+        element: <Home />,
       },
       {
         path: "/details-page/:slug",
