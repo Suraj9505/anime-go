@@ -11,7 +11,7 @@ import { IndexRoutes } from "./routes";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([...IndexRoutes]);
+const router = createBrowserRouter([...IndexRoutes],{ basename: process.env.PUBLIC_URL });
 library.add(fas);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
