@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/anime-go/static/css/main.e7b1a2e5.css",
-    "main.js": "/anime-go/static/js/main.d493a490.js",
-    "static/js/787.b412a55e.chunk.js": "/anime-go/static/js/787.b412a55e.chunk.js",
+    "main.css": "/anime-go/static/css/main.9b3d5b15.css",
+    "main.js": "/anime-go/static/js/main.317272c2.js",
     "static/media/hero_is_dead.jpg": "/anime-go/static/media/hero_is_dead.667ce1a3e102a8477c01.jpg",
     "static/media/vinland_saga.jpg": "/anime-go/static/media/vinland_saga.0d563191b19c452570a4.jpg",
     "static/media/one_piece_full.jpe": "/anime-go/static/media/one_piece_full.d5b6073bd29f7312d3d2.jpe",
@@ -61,12 +60,11 @@
     "static/media/yamada_kun.jpeg": "/anime-go/static/media/yamada_kun.663a4d6618af97784926.jpeg",
     "static/media/dr_stone.jpeg": "/anime-go/static/media/dr_stone.558b3c4a58540ba3c8fc.jpeg",
     "index.html": "/anime-go/index.html",
-    "main.e7b1a2e5.css.map": "/anime-go/static/css/main.e7b1a2e5.css.map",
-    "main.d493a490.js.map": "/anime-go/static/js/main.d493a490.js.map",
-    "787.b412a55e.chunk.js.map": "/anime-go/static/js/787.b412a55e.chunk.js.map"
+    "main.9b3d5b15.css.map": "/anime-go/static/css/main.9b3d5b15.css.map",
+    "main.317272c2.js.map": "/anime-go/static/js/main.317272c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7b1a2e5.css",
-    "static/js/main.d493a490.js"
+    "static/css/main.9b3d5b15.css",
+    "static/js/main.317272c2.js"
   ]
 }

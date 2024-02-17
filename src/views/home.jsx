@@ -1,9 +1,6 @@
 import React, { Fragment, memo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper";
-// import { Card } from "react-bootstrap";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -13,10 +10,10 @@ import {
   latestUpdate,
   trendingShow,
   popularShow,
-} from "./staticData/data";
-import HeroCard from "./components/card/hero-card";
-import TrendingCard from "./components/card/trending-card";
-import SectionSlider from "./components/slider/section-slider";
+} from "../staticData/data";
+import HeroCard from "../components/card/hero-card";
+import TrendingCard from "../components/card/trending-card";
+import SectionSlider from "../components/slider/section-slider";
 
 const Home = memo(() => {
   return (

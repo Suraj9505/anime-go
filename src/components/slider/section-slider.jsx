@@ -7,7 +7,7 @@ const SectionSlider = memo((props) => {
     <Fragment>
       <Card className="section-slider">
         <div className="section-slider-img">
-          <Link to={`details-page/${props.slug}`}>
+          <Link to={`/details-page/${props.slug}`}>
             <img src={props.thumbnail} alt={props.title} />
           </Link>
         </div>

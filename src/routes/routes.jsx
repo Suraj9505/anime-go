@@ -4,7 +4,7 @@ import React from "react";
 import DefaultLayout from "../components/layouts/default-layout";
 
 //pages
-import Home from "../home";
+import Home from "../views/home";
 import DetailsPage from "../views/detail-page";
 
 export const DefaultRoutes = [
@@ -13,7 +13,7 @@ export const DefaultRoutes = [
     element: <DefaultLayout header="true" footer="true" />,
     children: [
       {
-        path: "/",
+        path: "/anime-go",
         element: <Home />,
       },
       {
