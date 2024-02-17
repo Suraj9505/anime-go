@@ -353,3 +353,7 @@ li {
     width: 100%;
   }
 }
+
+.nav-item {
+  margin-top: 0.6rem;
+}

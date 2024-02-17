@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeNavItem, setActiveNavItem] = useState("");
+  const location = useLocation();
+
+  console.log(location.pathname);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -14,7 +17,7 @@ const Header = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container">
+      <div className="container align-items-center">
         <Link className="navbar-brand" to="#logo">
           Logo
         </Link>
@@ -25,7 +28,7 @@ const Header = () => {
           <ul className="navbar-nav ml-auto">
             <li
               className={`nav-item ${
-                activeNavItem === "home" ? "navbar-active" : ""
+                location.pathname === "/home" ? "navbar-active" : ""
               }`}
             >
               <Link
