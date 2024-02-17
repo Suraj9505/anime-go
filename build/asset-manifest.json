@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anime-go/build/static/css/main.82a0dd5f.css",
-    "main.js": "/anime-go/build/static/js/main.02218b50.js",
+    "main.js": "/anime-go/build/static/js/main.629fd434.js",
     "static/media/hero_is_dead.jpg": "/anime-go/build/static/media/hero_is_dead.667ce1a3e102a8477c01.jpg",
     "static/media/vinland_saga.jpg": "/anime-go/build/static/media/vinland_saga.0d563191b19c452570a4.jpg",
     "static/media/one_piece_full.jpe": "/anime-go/build/static/media/one_piece_full.d5b6073bd29f7312d3d2.jpe",
@@ -61,10 +61,10 @@
     "static/media/dr_stone.jpeg": "/anime-go/build/static/media/dr_stone.558b3c4a58540ba3c8fc.jpeg",
     "index.html": "/anime-go/build/index.html",
     "main.82a0dd5f.css.map": "/anime-go/build/static/css/main.82a0dd5f.css.map",
-    "main.02218b50.js.map": "/anime-go/build/static/js/main.02218b50.js.map"
+    "main.629fd434.js.map": "/anime-go/build/static/js/main.629fd434.js.map"
   },
   "entrypoints": [
     "static/css/main.82a0dd5f.css",
-    "static/js/main.02218b50.js"
+    "static/js/main.629fd434.js"
   ]
 }

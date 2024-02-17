@@ -13,7 +13,7 @@ export const DefaultRoutes = [
     element: <DefaultLayout header="true" footer="true" />,
     children: [
       {
-        path: "home",
+        path: "",
         element: <Home />,
       },
       {
