@@ -12,13 +12,13 @@ import Footer from "../footer/footer";
 const DefaultLayout = memo((props) => {
   return (
     <Fragment>
-      {props.header == "true" && <Header />}
+      {props.header === "true" && <Header />}
       {
         <Suspense fallback={<div className="react-load"></div>}>
           <Outlet></Outlet>
         </Suspense>
       }
-      {props.footer == "true" && <Footer />}
+      {props.footer === "true" && <Footer />}
     </Fragment>
   );
 });
